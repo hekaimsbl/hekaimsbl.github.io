@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.edreammer.cn/sitemap.xml
+Sitemap: https://blog.edreammer.cn/sitemap.xml

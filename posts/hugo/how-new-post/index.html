@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>分类 - Hekaimsbl&#39;s Blog</title>
+  <title>Hugo如何新建文档 - Hekaimsbl&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Hekaimsbl" /><meta name="description" content="Hekaimsbl&#39;s Blog" /><meta name="keywords" content="Java" />
+<meta name="author" content="Hekaimsbl" /><meta name="description" content="1 hugo new posts/[path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在.posts/content/hugo/目录下新建a.md 如果没有使用pos" /><meta name="keywords" content="hugo" />
 
 
 
@@ -26,9 +26,7 @@
 <meta name="generator" content="Hugo 0.75.1 with theme even" />
 
 
-<link rel="canonical" href="https://blog.edreammer.cn/categories/" />
-  <link href="https://blog.edreammer.cn/categories/index.xml" rel="alternate" type="application/rss+xml" title="Hekaimsbl&#39;s Blog" />
-  <link href="https://blog.edreammer.cn/categories/index.xml" rel="feed" type="application/rss+xml" title="Hekaimsbl&#39;s Blog" />
+<link rel="canonical" href="https://blog.edreammer.cn/posts/hugo/how-new-post/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,16 +39,24 @@
 
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="Hekaimsbl&#39;s Blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.edreammer.cn/categories/" />
+<meta property="og:title" content="Hugo如何新建文档" />
+<meta property="og:description" content="1 hugo new posts/[path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在.posts/content/hugo/目录下新建a.md 如果没有使用pos" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.edreammer.cn/posts/hugo/how-new-post/" />
+<meta property="article:published_time" content="2021-03-29T16:44:26+08:00" />
+<meta property="article:modified_time" content="2021-03-29T16:44:26+08:00" />
+<meta itemprop="name" content="Hugo如何新建文档">
+<meta itemprop="description" content="1 hugo new posts/[path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在.posts/content/hugo/目录下新建a.md 如果没有使用pos">
+<meta itemprop="datePublished" content="2021-03-29T16:44:26+08:00" />
+<meta itemprop="dateModified" content="2021-03-29T16:44:26+08:00" />
+<meta itemprop="wordCount" content="84">
 
-<meta itemprop="name" content="Categories">
-<meta itemprop="description" content="Hekaimsbl&#39;s Blog">
+
+
+<meta itemprop="keywords" content="hugo," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Hekaimsbl&#39;s Blog"/>
+<meta name="twitter:title" content="Hugo如何新建文档"/>
+<meta name="twitter:description" content="1 hugo new posts/[path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在.posts/content/hugo/目录下新建a.md 如果没有使用pos"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,13 +126,24 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <div class="terms">
-      <div class="terms-title">
-        暂无分类
-      </div>
-      <div class="terms-tags">
-        </div>
-    </div>
+          <article class="post">
+  <div class="post-content">
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new posts/<span class="o">[</span>path<span class="o">]</span>.md
+</code></pre></td></tr></table>
+</div>
+</div><p>path默认在<code>content</code>目录下</p>
+<p>eg： hugo new hugo/a.md 实际上是在<code>.posts/content/hugo/</code>目录下新建<code>a.md</code></p>
+<blockquote>
+<p>如果没有使用<code>posts</code>，博客不会在更路径下显示</p>
+</blockquote>
+
+  </div>
+</article>
         </div>
         
 

@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 29 Mar 2021 16:44:26 +0800</lastBuildDate><atom:link href="https://blog.edreammer.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo如何新建文档</title>
-      <link>https://blog.edreammer.cn/hugo/how-new-post/</link>
+      <link>https://blog.edreammer.cn/posts/hugo/how-new-post/</link>
       <pubDate>Mon, 29 Mar 2021 16:44:26 +0800</pubDate>
       
-      <guid>https://blog.edreammer.cn/hugo/how-new-post/</guid>
-      <description>1 hugo new [path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在./content/hugo/目录下新建a.md</description>
+      <guid>https://blog.edreammer.cn/posts/hugo/how-new-post/</guid>
+      <description>1 hugo new posts/[path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在.posts/content/hugo/目录下新建a.md 如果没有使用pos</description>
     </item>
     
   </channel>

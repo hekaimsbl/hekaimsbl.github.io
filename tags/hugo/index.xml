@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hekaimsbl&#39;s Blog</title>
-    <link>https://blog.edreammer.cn/</link>
-    <description>Recent content on Hekaimsbl&#39;s Blog</description>
+    <title>hugo on Hekaimsbl&#39;s Blog</title>
+    <link>https://blog.edreammer.cn/tags/hugo/</link>
+    <description>Recent content in hugo on Hekaimsbl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 Mar 2021 16:44:26 +0800</lastBuildDate><atom:link href="https://blog.edreammer.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 16:44:26 +0800</lastBuildDate><atom:link href="https://blog.edreammer.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo如何新建文档</title>
       <link>https://blog.edreammer.cn/hugo/how-new-post/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://blog.edreammer.cn/hugo/how-new-post/</guid>
       <description>1 hugo new [path].md path默认在content目录下 eg： hugo new hugo/a.md 实际上是在./content/hugo/目录下新建a.md</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blog.edreammer.cn/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.edreammer.cn/readme/</guid>
-      <description>blog-post post content</description>
     </item>
     
   </channel>

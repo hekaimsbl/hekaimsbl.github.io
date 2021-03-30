@@ -5,16 +5,6 @@
     <link>https://blog.edreammer.cn/tags/</link>
     <description>Recent content in Tags on Hekaimsbl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 Mar 2021 16:44:26 +0800</lastBuildDate><atom:link href="https://blog.edreammer.cn/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hugo</title>
-      <link>https://blog.edreammer.cn/tags/hugo/</link>
-      <pubDate>Mon, 29 Mar 2021 16:44:26 +0800</pubDate>
-      
-      <guid>https://blog.edreammer.cn/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh-cn</language><atom:link href="https://blog.edreammer.cn/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
